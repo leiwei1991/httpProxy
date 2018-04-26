@@ -1,8 +1,7 @@
 # httpProxy
 
 ## Q1
-
-    ![server](https://github.com/leiwei1991/httpProxy/blob/master/server.jpg)
+   ![server](https://github.com/leiwei1991/httpProxy/blob/master/server.jpg)
 
 ## Q2
 
