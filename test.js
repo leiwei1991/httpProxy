@@ -1,7 +1,7 @@
 let ProxyVerifier = require('proxy-verifier');
 
 let proxy = {
-	ipAddress: '112.115.57.20',
+ 	ipAddress: '112.115.57.20',
 	port: 3128,
 	protocol: 'http'
 };
