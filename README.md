@@ -11,6 +11,6 @@
 
 ## Q3
 
-    node test.js
+    npm install & npm run test
 
     

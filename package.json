@@ -1,0 +1,23 @@
+{
+  "name": "httpproxy",
+  "version": "1.0.0",
+  "description": "check http proxy",
+  "main": "test.js",
+  "dependencies": {
+    "proxy-verifier": "^0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiwei1991/httpProxy.git"
+  },
+  "author": "leiwei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leiwei1991/httpProxy/issues"
+  },
+  "homepage": "https://github.com/leiwei1991/httpProxy#readme"
+}
