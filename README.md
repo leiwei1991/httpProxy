@@ -11,6 +11,6 @@
 
 ## Q3
 
-    待完成
+    node test.js
 
     
