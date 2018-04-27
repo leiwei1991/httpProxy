@@ -6,11 +6,13 @@ let proxy = {
 	protocol: 'http'
 };
 
+console.time('requestTime');
 ProxyVerifier.testAll(proxy, function(error, result) {
 	if (error) {
-        console.log('proxyVerifiier error ', error);
+        	console.log('proxyVerifiier error ', error);
 	} else {
-        console.log(JSON.stringify(result));
+		console.timeEnd('requestTime'); //requestTime: 2263.847ms
+        	console.log(JSON.stringify(result));
 		// {"anonymityLevel":"anonymous","tunnel":{"ok":true},"protocols":{"http":{"ok":true}}}
 	}
 });
